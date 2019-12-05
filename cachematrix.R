@@ -6,7 +6,7 @@ makeCacheMatrix <- function(x = matrix()) {
 mtrx <- NULL
 
 set <- function(a){                                ## This funciton sets the value of the matrix, which was
-x <<- a                                          ## which was previously set to NULL and probably makes it a global variable.
+x <<- a                                          ## previously set to NULL and (probably) makes it a global variable.
 ##mtrx <<- NULL                                  ## I switched off this line because it doesn't seem to matter one way or another.
 }
 
